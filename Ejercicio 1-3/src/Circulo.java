@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Circulo implements calculosFormas {
 
     //Atributos
-    double pi = 3.14159265359;
+
     double radio;
 
     //Constructores
@@ -30,6 +30,6 @@ public class Circulo implements calculosFormas {
     @Override
     public void calcularPerimetro() {
         double perimetro = 2 * pi * radio;
-        System.out.println("El area del círculo es: " + perimetro);
+        System.out.println("El perímetro del círculo es: " + perimetro);
     }
 }

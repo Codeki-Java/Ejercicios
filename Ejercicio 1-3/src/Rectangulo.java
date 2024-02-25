@@ -19,7 +19,7 @@ public class Rectangulo implements calculosFormas{
     @Override
     public void calcularArea() {
         Scanner sc = new Scanner(System.in);
-        
+
         System.out.println("Figura: RECTANGULO");
         System.out.println("Ingrese el valor del lado 1: ");
         lado1 = sc.nextDouble();
