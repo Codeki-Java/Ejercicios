@@ -46,30 +46,5 @@ public class Main {
         if(!razaEncontrada){ // si no cambio la variable a true porque no encontró la raza
             System.out.println("Raza no encontrada");
         }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     }
-
 }
