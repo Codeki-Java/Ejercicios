@@ -33,16 +33,17 @@ public class Main {
 
         //Por cada raza de razas, si busqueda = a raza, mostrarla.
 
+        //Declaro una variable booleana "razaEncontrada" y la inicializo en false
         boolean razaEncontrada = false;
         for(String r : razas) {
             if (busqueda.equals(r)){
                 System.out.println("La raza encontrada es: " + r);
-                razaEncontrada = true;
-                break;
+                razaEncontrada = true; // cambio la variable a true
+                break; // salgo del bucle
             }
         }
         //Fuera del bucle, si razaEncontrada = false, que imprima "Raza no encontrada"
-        if(!razaEncontrada){
+        if(!razaEncontrada){ // si no cambio la variable a true porque no encontró la raza
             System.out.println("Raza no encontrada");
         }
 
